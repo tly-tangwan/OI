@@ -1,6 +1,6 @@
 # map
 一对一的hash，遇到字符串搭配数组的时候就不需要hash了。
-```
+```C++
 #include<map>
 map<int, string> p;
 string s;
