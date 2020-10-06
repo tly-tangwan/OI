@@ -1,39 +1,38 @@
-#include<iostream>
+#include <iostream>
+#include <stack>
+#include <vector>
 using namespace std;
-#include<stack>
-#include<cassert>
-int out[50010],in[50010];
-template<class T>
-bool test(int *stack_in, int *stack_out,size_t n)
-{
-	assert(stack_in&&stack_out);
-	stack<T> s;
-	int j = 0;
-	for (size_t i = 0; i < n; i++)
-	{
-		s.push(stack_in[i]);
-		while (!s.empty()&&s.top()==stack_out[j])
-		{
-			s.pop();
-			++j;
-		}
-	}
-	return (s.size() == 0) ? true : false;
-
-}
 int main()
 {
-	int t,n;
+	int total,t,instr[100000], outstr[100000];
+	stack<int> s;
 	cin>>t;
 	while(t--)
 	{
-		cin>>n;
-		for(int i=1; i<=n; i++)
-			cin>>out[i],in[i]=i;
-		if(test<int>(in,out,n-1))
-			cout<<"Not a proof"<<endl;
+		cin >> total;
+		for(int i=0; i<total; i++)
+			cin>>outstr[i];
+		vector<int> vin, vout;
+		for(int i = 0; i < total; i++)
+			instr[i] = i + 1;
+		for(int i = 0; i < total; i++)
+			vin.push_back(instr[i]);
+		for(int i = 0; i < total; i++)
+			vout.push_back(outstr[i]);
+		int i = 0, j = 0;
+		for(; i < total; i++)
+		{
+			s.push(vin[i]);
+			while(!s.empty() && s.top() == vout[j])
+			{
+				s.pop();
+				j++;
+			}
+		}
+		if(i == j)
+			cout << "Not a proof" << endl;
 		else
-			cout<<"Cheater"<<endl;
+			cout << "Cheater" << endl;
 	}
 	return 0;
 }
