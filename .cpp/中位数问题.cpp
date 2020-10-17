@@ -1,4 +1,7 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<cstdio>
+#include<queue>
+#include<cmath>
 using namespace std;
 int read()
 {
@@ -29,7 +32,6 @@ int main()
 			big.pop();
 		while(!small.empty())
 			small.pop();
-
 		int x;
 		x=read();
 		int n=read();
@@ -43,13 +45,12 @@ int main()
 				small.push(input);
 			else
 				big.push(input);
-
 			while (1)
 			{
 				int bb=big.size(),ss=small.size();
-				if(abs(bb-ss)<1)
-					break;	
-				if (bb>ss && bb && ss)
+				if(abs((big.size()-small.size())<=1))
+					break;
+				if (bb>ss)
 				{
 					small.push(big.top());
 					big.pop();
@@ -63,9 +64,9 @@ int main()
 			if (i%2)
 			{
 				int bb=big.size(),ss=small.size();
-				cout<<(bb>ss && bb && ss?big.top():small.top());
+				cout<<(bb>ss?big.top():small.top());
 			}
-			if (!i%10)
+			if (!i%20)
 				cout<<endl;
 			else if(i%2)
 				cout<<" ";
