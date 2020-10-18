@@ -4,66 +4,6 @@
 
 难度介于CSP-J2 ... SCP_S2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## A. 纪念品分组（souvenir）
 
 ### 问题描述
@@ -113,6 +53,31 @@
 $50％$ 的数据满足：$1≤n≤15$
 
 $100％$ 的数据满足：$1≤n≤30000,80≤w≤200$
+
+讲真，我不知道哪儿错了QAQ
+```C++
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int w,ans=0,n,v[30001],l,r;
+int main()
+{
+	scanf("%d%d",&w,&n);
+	for(register int i=1; i<=n; i++)
+		scanf("%d",&v[i]);
+	sort(v+1,v+n+1);
+	l=1,r=n;
+	while(l<=r)  
+	{
+		if(v[l]+v[r]<=w)   
+			l++,r--,ans++;
+		else
+			r--,ans++; 
+	}
+	printf("%d",ans);
+	return 0;
+}
+```
 
 
 
