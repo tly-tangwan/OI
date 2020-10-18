@@ -8,6 +8,7 @@
   - [DP](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/DP.md)
   - [前缀和](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E5%89%8D%E7%BC%80%E5%92%8C.md)
 - 线段
+  - [线段树](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E7%BA%BF%E6%AE%B5%E6%A0%91.md)
   - [树状数组](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84.md)
   - [分块](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E5%88%86%E5%9D%97.md)
   - [二分](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86.md)
