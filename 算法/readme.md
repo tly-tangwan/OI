@@ -1,8 +1,20 @@
 # 算法索引
+- 数据结构
+  - [并查集散记](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E5%B9%B6%E6%9F%A5%E9%9B%86%E6%95%A3%E8%AE%B0.md)
+  - [单调队列](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97.md)
+  - [单调栈](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E5%8D%95%E8%B0%83%E6%A0%88.md)
 - 基础算法
   - [模拟](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%A8%A1%E6%8B%9F.md)
+  - [DP](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/DP.md)
+  - [前缀和](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E5%89%8D%E7%BC%80%E5%92%8C.md)
 - 线段
-  - 
-- 树
+  - [树状数组](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84.md)
+  - [分块](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E5%88%86%E5%9D%97.md)
+  - [二分](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86.md)
+- 图论
   - [树的相关问题](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%A0%91%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98.md)
-- 图
+  - [搜索](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%90%9C%E7%B4%A2.md)
+  - [最短路径问题](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98.md)
+  - [最小生成树](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91.md)
+- 数论
+  - [数学](https://github.com/tly-tangwan/OI/blob/main/%E7%AE%97%E6%B3%95/%E6%95%B0%E5%AD%A6.md)
